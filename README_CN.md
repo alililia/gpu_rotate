@@ -245,8 +245,10 @@ python export.py --eval_checkpoint [EVAL_CHECKPOINT] --file_format [FILE_FORMAT]
 
 ### [推理描述](#目录)
 
+| 参数          | Ascend                    |
 | ------------- | ------------------------- |
 | 模型版本      | RotatE                    |
+| 资源          | Ascend 310, 系统 Euler2.8 |
 | 上传日期      | 2021-12-17                |
 | MindSpore版本 | 1.5.0                     |
 | 数据集        | wn18rr                    |
