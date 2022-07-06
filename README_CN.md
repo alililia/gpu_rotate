@@ -243,23 +243,6 @@ python export.py --eval_checkpoint [EVAL_CHECKPOINT] --file_format [FILE_FORMAT]
 | HITS@10       |单卡：0.572112；8卡：0.572431 |
 | 推理模型 | 56M (.ckpt文件) |
 
-### [推理描述](#目录)
-
-| 参数          | Ascend                    |
-| ------------- | ------------------------- |
-| 模型版本      | RotatE                    |
-| 资源          | Ascend 310, 系统 Euler2.8 |
-| 上传日期      | 2021-12-17                |
-| MindSpore版本 | 1.5.0                     |
-| 数据集        | wn18rr                    |
-| 输出          | score                     |
-| MRR           | 单卡: 0.475223            |
-| MR            | 单卡: 3239.20             |
-| HITS@1        | 单卡: 0.426292            |
-| HITS@3        | 单卡: 0.495532            |
-| HITS@10       | 单卡: 0.515303            |
-| 推理模型      | 156M (.ckpt文件)          |
-
 # [随机情况说明](#目录)
 
 - `rotate.py`中Embedding矩阵随机初始化和`dataset.py`中负样本随机采样。
